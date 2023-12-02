@@ -12,7 +12,6 @@ async function search(c) {
   if (res.status == 200 && res.ok) {
     const data = await res.json();
     arr = data;
-    console.log(data);
     display();
     displayAnother();
   }
