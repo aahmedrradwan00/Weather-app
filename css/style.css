@@ -65,7 +65,7 @@ p {
 
 .navbar-toggler {
   border: none;
-  color: transparent;
+  color: white;
 }
 
 .fa-bars {
@@ -92,7 +92,7 @@ header input {
 }
 
 .forecast-table{
-  margin-top: -180px;
+  margin-top: -160px;
 }
 .forecast-header {
   font-size: 14;
@@ -108,7 +108,7 @@ header input {
 }
 
 .temp{
-  font-size: 90px;
+  font-size: 70px;
   font-weight: bold;
   color: white;
   line-height: 140px;
@@ -146,14 +146,14 @@ footer p {
     font-weight: 300;
     margin-right: 20px;
 }
-
+.nav-span{
+  margin: 0px;
+}
 footer {
   background-color: #262936;
 }
 
-.social{
-  margin-left: 40px;
-}
+
 .social a {
   text-decoration: none;
   width: 40px;
